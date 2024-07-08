@@ -1,7 +1,7 @@
 import './app-info.css';
 
 const AppInfo = ({employees, increased}) => {
-
+    console.log('render header')
     return (
         <div className="app-info" >
             <h1>Учет сотрудников в компании N</h1>
